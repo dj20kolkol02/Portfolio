@@ -104,12 +104,7 @@
               <p>Usługa administrowania zarządza infrastrukturą, zapewniając wsparcie i bezpieczeństwo systemów.</p>
               <a href="admin.html">Dowiedz się więcej</a>
             </div>
-            <div>
-              <i class="fa-solid fa-music"></i>
-              <h2>Montaż audio</h2>
-              <p>Montaż audio, edycja, optymalizacja dźwięku, realizacja, mixing i dostosowanie do potrzeb klienta.</p>
-              <a href="audio.html">Dowiedz się więcej</a>
-            </div>
+           
         </div>    
       </div>
     </div>
@@ -123,27 +118,18 @@
               <h3>Strony internetowe</h3>
               <p>Projekty stron internetowych wykonanych w HTML , CSS i JavaScript.
                 <br>
-                <a href="https://github.com/dj20kolkol02?tab=repositories"><i class="fa-solid fa-link"></i></a>
+                <a href="https://github.com/dj20kolkol02/Salon-samochodowy-projekt">Dowiedz się więcej</a>
               </p>
             </div>
           </div>
-          <div class="work">
-            <img src="img/work1.webp">
-            <div class="layer">
-              <h3>Montaż audio i muzyka</h3>
-              <p>Przykładowe utwory muzyczne.
-                <br>
-                <a href="https://soundcloud.com/xikub"><i class="fa-solid fa-link"></i></a>
-              </p>
-            </div>
-          </div>
+          
           <div class="work">
             <img src="img/work2.png">
             <div class="layer">
               <h3>Programy C++/Python/Java</h3>
               <p> Programy wykonane za pomocą popularnych języków programowania.
                 <br>
-                <a href="https://github.com/dj20kolkol02/Python"><i class="fa-solid fa-link"></i></a>
+                <a href="https://github.com/dj20kolkol02/Python">Dowiedz się więcej</a>
               </p>
             </div>
           </div>
@@ -153,7 +139,7 @@
               <h3>BASH/POWERSHELL</h3>
               <p> Skrypty używane w sieciach biznesowych.
                 <br>
-                <a href="https://github.com/dj20kolkol02/Skrypty-Bash-Powershell"><i class="fa-solid fa-link"></i></a>
+                <a href="https://github.com/dj20kolkol02/Skrypty-Bash-Powershell">Dowiedz się więcej</a>
               </p>
             </div>
           </div>
@@ -194,6 +180,11 @@
       <p>Copyright © Jakub Kołkowski</p>
     </div>
   </div>
+      <a href="#header" class="to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+  </body>
+
   <script>
     var typed =- new Typed(".auto-input", {
     strings: ["Jakub Kołkowski", "Specjalistą IT", "Web Developerem", "Muzykiem"],
@@ -211,6 +202,17 @@ function openmenu() {
 function closemenu() {
     sideenu.style.right = "-200px";
 }
-  </script>      
-  </body>
+  </script>  
+
+  <script>
+    const toTop = document.querySelector(".to-top");
+
+window.addEventListener("scroll", () => {
+    if (window.pageYOffset > 100) {
+        toTop.classList.add("active");
+    } else {
+        toTop.classList.remove("active");
+    }
+})
+  </script>
 </html>
