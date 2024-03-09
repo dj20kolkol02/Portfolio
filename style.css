@@ -388,6 +388,7 @@ nav ul li a:hover::after {
   margin: 1.75rem auto;
   width: 150px;
   height: 150px;
+  
 }
 
 
@@ -398,6 +399,9 @@ nav ul li a:hover::after {
   border-radius: 10px;
   
 }
+
+/*---animacja img---*/
+
 
 .body-review {
   background-color: #262626;
@@ -686,6 +690,10 @@ nav .fa-solid.fa-bars {
     font-size: 24px;
   }
   
+  .layer{
+    height: 100%;
+  }
+
 }
 /* dla laptopów */
 @media (min-width:772px) {
@@ -728,6 +736,10 @@ nav .fa-solid.fa-bars {
   .header-text h1 {
     font-size: 18px;
   }
+
+  .layer{
+    height: 100%;
+  }
 }
 
 /* galasy s8+ */
@@ -739,6 +751,10 @@ nav .fa-solid.fa-bars {
 
   .header-text h1 {
     font-size: 16px;
+  }
+
+  .layer{
+    height: 100%;
   }
 }
 
