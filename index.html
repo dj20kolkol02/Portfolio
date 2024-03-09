@@ -21,6 +21,7 @@
             <li><a href="#about">O mnie</a></li>
             <li><a href="#services">Usługi</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#opinion">Opinie</a></li>
             <li><a href="#contact">Kontakt</a></li>
             <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
           </ul>
@@ -118,7 +119,7 @@
               <h3>Strony internetowe</h3>
               <p>Projekty stron internetowych wykonanych w HTML , CSS i JavaScript.
                 <br>
-                <a href="https://github.com/dj20kolkol02/Salon-samochodowy-projekt">Dowiedz się więcej</a>
+                <a href="https://github.com/dj20kolkol02/Salon-samochodowy-projekt"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
               </p>
             </div>
           </div>
@@ -129,7 +130,7 @@
               <h3>Programy C++/Python/Java</h3>
               <p> Programy wykonane za pomocą popularnych języków programowania.
                 <br>
-                <a href="https://github.com/dj20kolkol02/Python">Dowiedz się więcej</a>
+                <a href="https://github.com/dj20kolkol02/Python"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
               </p>
             </div>
           </div>
@@ -139,15 +140,94 @@
               <h3>BASH/POWERSHELL</h3>
               <p> Skrypty używane w sieciach biznesowych.
                 <br>
-                <a href="https://github.com/dj20kolkol02/Skrypty-Bash-Powershell">Dowiedz się więcej</a>
+                <a href="https://github.com/dj20kolkol02/Skrypty-Bash-Powershell"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
               </p>
             </div>
-          </div>
+          </div>  
         </div>
         
         <a href="https://github.com/dj20kolkol02?tab=repositories" class="btn">Zobacz więcej <i class="fa-brands fa-github"></i></a>
       </div>
     </div>
+    <!---opinie-->
+    <div id="opinion">
+    <div class="rev-section">
+    <h2 class="sub-title">Opinie klientów</h2>
+    <p class="note">Przykładowe osoby , które skorzystały z usług informatycznych i chętnie udzieliły opinii.</p>
+
+    <div class="reviews">
+        <div class="review">
+           
+            <div class="body-review">
+              <i class="fa-solid fa-quote-left"></i>
+              <div class="head-review">
+                <img class="client" src="img/client.jpeg" alt="" width="250px">
+            </div>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            <br>
+            <div class="desc-review">
+              Usługi informatyczne tej firmy są doskonałe. Ich zespół jest profesjonalny i skuteczny, szybko reagują na problemy. Polecam ich każdemu.</div>
+              <br> 
+            <div class="nameve-review">- Jakub Kołkowski</div>
+            </div>
+            
+            
+        </div>
+        <div class="review">
+            
+            <div class="body-review">
+              <i class="fa-solid fa-quote-left"></i>
+              <div class="head-review">
+                <img class="client" src="img/client1.jpeg" alt="" width="250px">
+              </div>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <br>
+            <div class="desc-review">Usługi informatyczne oferowane przez tę firmę są rewelacyjne. Ich zespół jest profesjonalny i bardzo kompetentny. Szybko rozwiązują problemy i są godni polecenia.</div>
+              <br> 
+              <div class="nameve-review">- Daniel Niewiadomski</div>
+            </div>
+            
+        </div>
+        <div class="review">
+            
+            
+            <div class="body-review">
+              <i class="fa-solid fa-quote-left"></i>
+              <div class="head-review">
+                <img class="client" src="img/client2.jpeg" alt="" width="250px">
+            </div>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <br>
+            <div class="desc-review">Usługi informatyczne świadczone przez tę firmę są świetne. Ich zespół jest profesjonalny i skuteczny, zawsze gotowy pomóc.
+            </div>
+            <br>
+            <div class="nameve-review">- Damian Duda</div>
+            </div>
+        </div>
+        
+    </div>
+    <a href="opinie.html" class="btn">Więcej opinii <i class="fa-solid fa-comment"></i></a>
+</div>
+</div>
 <!---kontakt-->
   <div id="contact">
     <div class="container">
@@ -170,14 +250,14 @@
           <form action="https://formspree.io/f/mrgnqzvk" method="POST">
             <input type="text" name="Name" placeholder="Imie i Nazwisko" required>
             <input type="email" name="email" placeholder="Twój Email" required>
-            <textarea name="Message" rows="6" placeholder="Twoja Wiadomość"></textarea>
+            <textarea name="Message" rows="6" placeholder="Twoja Wiadomość" required></textarea>
             <button type="submit" class="btn btn2">Wyślij</button>
           </form>
         </div>
       </div>
     </div>
     <div class="copyright">
-      <p>Copyright © Jakub Kołkowski</p>
+      <p>© 2024 Jakub Kołkowski - All rights Reserved</p>
     </div>
   </div>
       <a href="#header" class="to-top">
@@ -215,4 +295,8 @@ window.addEventListener("scroll", () => {
     }
 })
   </script>
+
+
+
+
 </html>
